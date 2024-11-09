@@ -1,4 +1,5 @@
 import telebot
+import requests
 
 API_TOKEN = '8038506076:AAG03MaU3vODYfwu_7s_XOcDc66LKbMrWK4'
 WEATHER_API_KEY = '4de4e822e77c2d3a20fad3c834f793f6'
