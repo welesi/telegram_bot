@@ -19,7 +19,7 @@ def get_weather(message):
         temperature = data['main']['temp']
         weather_description = data['weather'][0]['description']
 
-        reply = f"Погода в {city}:\nТемпература: {temperature}°C\nОписание: {weather_description.capitalize()}"
+        reply = f"Погода в {city}:\nТемпература: {temperature//1}°C\nОписание: {weather_description.capitalize()}"
     else:
         reply = "Город не найден. Пожалуйста, проверьте название города и попробуйте снова."
 
